@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhysioMvc", "PhysioMvc.csproj", "{AC15D018-ACC6-19A5-8C0B-190BAC1B4063}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC15D018-ACC6-19A5-8C0B-190BAC1B4063}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC15D018-ACC6-19A5-8C0B-190BAC1B4063}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC15D018-ACC6-19A5-8C0B-190BAC1B4063}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC15D018-ACC6-19A5-8C0B-190BAC1B4063}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A413259E-7EDB-4E93-A7D5-7B46505BFE0F}
+	EndGlobalSection
+EndGlobal
