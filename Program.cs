@@ -1,4 +1,9 @@
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using PhysioMvc.Data;
 var builder = WebApplication.CreateBuilder(args);
+builder.Services.AddDbContext<PhysioMvcContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("PhysioMvcContext") ?? throw new InvalidOperationException("Connection string 'PhysioMvcContext' not found.")));
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
